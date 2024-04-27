@@ -2,7 +2,7 @@
 new_cfg = {
     "layer": 1,
 }
-from utils import *
+from deprecated.utils import *
 torch.set_grad_enabled(False)
 cfg.update(new_cfg)
 post_init_cfg(cfg)

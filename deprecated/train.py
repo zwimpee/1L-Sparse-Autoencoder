@@ -1,5 +1,5 @@
 # %%
-from utils import *
+from deprecated.utils import *
 # %%
 encoder = AutoEncoder(cfg)
 buffer = Buffer(cfg)
